@@ -31,7 +31,7 @@ function verificar() {
             } else if (idade < 60) {
                 img.setAttribute('src', 'adulto_f.png')
             } else {
-                img.setAttribute('src', 'idoso_m.png')
+                img.setAttribute('src', 'idoso_f.png')
             }
         }
         res.style.textAlign = 'center'
